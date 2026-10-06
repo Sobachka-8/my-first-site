@@ -28,10 +28,13 @@ nav a {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 12px 18px;
+
+    /* оформление */
+    background: #d97706;         /* рыжий */
+    color: #fff;                  /* белый текст */
+    border: 2px solid #000;       /* чёрная обводка 2px */
     border-radius: 50px;
-    background: #0366d6;
-    color: #fff;
-    border: none;
+    padding: 18px 24px;           /* больше по вертикали (было 12px 18px) */
+    font-size: 16px;
     cursor: pointer;
 }
