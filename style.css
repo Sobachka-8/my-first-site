@@ -1,3 +1,4 @@
+/* стиль сайта вроде */
 body {
     font-family: Arial, sans-serif;
     max-width: 700px;
@@ -21,4 +22,16 @@ nav a {
     margin-right: 15px;
     color: #0366d6;
     text-decoration: none;
+}
+/*  стиль для кнопки */
+#myButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    border-radius: 50px;
+    background: #0366d6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
