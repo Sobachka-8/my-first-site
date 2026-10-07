@@ -64,8 +64,8 @@ img {
 /*ниже что то с переворотом экрана */
 #flipButton {
     position: absolute;
-    bottom: 42vh;      /* подняли: 50% высоты экрана от низа */
-    left: 49px;        /* сдвинули вправо */
+    bottom: 46vh;      /* высотa от низа экрана */
+    left: 46px;        /* сдвиг вправо влево */
     width: 50px;
     height: 50px;
     border-radius: 50%;
