@@ -1,11 +1,12 @@
 // Переворот страницы по кнопке
 const flipBtn = document.querySelector('#flipButton');
+const wrapper = document.querySelector('.wrapper');
 let flipped = false;
 
-if (flipBtn) {
+if (flipBtn && wrapper) {
     flipBtn.addEventListener('click', () => {
         flipped = !flipped;
-        document.body.style.transition = 'transform 0.8s ease';
-        document.body.style.transform = flipped ? 'rotate(180deg)' : 'rotate(0deg)';
+        wrapper.style.transition = 'transform 0.8s ease';
+        wrapper.style.transform = flipped ? 'rotate(180deg)' : 'rotate(0deg)';
     });
 }
