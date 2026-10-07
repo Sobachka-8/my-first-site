@@ -65,7 +65,7 @@ img {
 #flipButton {
     position: absolute;
     bottom: 46vh;      /* высотa от низа экрана */
-    left: 46px;        /* сдвиг вправо влево */
+    left: 43px;        /* сдвиг вправо влево */
     width: 50px;
     height: 50px;
     border-radius: 50%;
